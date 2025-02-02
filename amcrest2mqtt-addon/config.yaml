@@ -23,6 +23,10 @@ options:
   amcrest_port: 80
   amcrest_username: admin
   amcrest_password: ''
+  mqtt_host: ''
+  mqtt_port: 80
+  mqtt_username: admin
+  mqtt_password: ''
   storage_poll_interval: 3600
   device_name: ''
   home_assistant: true
@@ -32,6 +36,10 @@ schema:
   amcrest_port: int
   amcrest_username: str
   amcrest_password: str
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: str
   storage_poll_interval: int
   device_name: str
   home_assistant: bool
